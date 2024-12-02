@@ -4,7 +4,7 @@
 const StartGame = ({toggle}) => {
   return (
     <>
-        <section className='container  mx-auto lg:flex  sm:block sm:justify-center justify-center items-center h-[88vh] '>
+        <section className='container  mx-auto lg:flex  sm:block sm:justify-center justify-center items-center h-[95vh] flex my-auto border'>
             <img src='images/Dice.png' alt="" />
             <div className="h1 text-end flex flex-col gap-8 sm:flex">
                 <h1 className="text-7xl font-bold text-end sm:text-center">Dice Game</h1>
