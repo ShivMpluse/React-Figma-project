@@ -6,7 +6,6 @@ import Button from "./Button"
 
 const Header = () => {
 
-  // const [filterData, setFilterData] = useState(null)
 
 
   const searchFood = (e) => {
@@ -35,6 +34,7 @@ const Header = () => {
             <Button text='Break Fast'/>
         </div>
       </section>
+      
     </>
   )
 }

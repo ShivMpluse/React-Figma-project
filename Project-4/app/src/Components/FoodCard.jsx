@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import Card from "./Card";
-import Header from "./Header";
+// import Header from "./Header";
 export const BASE_URL = "http://localhost:9000"
 
 
@@ -40,20 +40,22 @@ const FoodCard = () => {
     }
 
     fetchFoodData();
+
+    // const searchFood = (e) => {
+    //   const searchValue = e.target.value;
+    //   console.log(searchValue);
+  
+    //   if(searchValue === "") {
+    //     setFilterData(null)
+    //   } else {
+    //     const filteredData = data?.filter((item) => item.name.toLowerCase().includes(searchValue.toLowerCase()))
+    //     setFilterData(filteredData)
+    //   }
+    // }
     
   }, [])
 
-  // const searchFood = (e) => {
-  //   const searchValue = e.target.value;
-  //   console.log(searchValue);
-
-  //   if(searchValue === "") {
-  //     setFilterData(null)
-  //   } else {
-  //     const filteredData = data?.filter((item) => item.name.toLowerCase().includes(searchValue.toLowerCase()))
-  //     setFilterData(filteredData)
-  //   }
-  // }
+  
 
   
 
@@ -68,7 +70,7 @@ const FoodCard = () => {
 
   return (
     <>
-    <Header />
+    {/* <Header /> */}
       <section className="">
       <div className="BG w-full h-[auto] flex justify-center">
         <img 
