@@ -54,6 +54,20 @@ app.get("/", (req, res) => {
       image: "/images/pancake.png",
       type: "dinner",
     },
+    {
+      name: "BURGER",
+      price: "$15",
+      text: "Juicy beef patty with fresh vegetables and cheese in a toasted bun.",
+      image: "/images/burger.png",
+      type: "dinner",
+    },
+    {
+      name: "PANCAKES",
+      price: "$10",
+      text: "Fluffy pancakes topped with syrup and fresh berries, perfect for breakfast.",
+      image: "/images/pancakes.png",
+      type: "breakfast",
+    },
   ];
 
   res.json(foodData);
