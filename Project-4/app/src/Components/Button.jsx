@@ -2,9 +2,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-const Button = (props) => {
+const Button = ({text, ...a}) => {
   return (
-    <button className='bg-red-500 py-1 px-2 rounded-lg text-white'>{props.text}</button>
+    <button {...a} className='bg-red-500 py-1 px-2 rounded-lg text-white'>{text}</button>
   )
 }
 

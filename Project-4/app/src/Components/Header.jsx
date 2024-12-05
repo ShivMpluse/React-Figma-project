@@ -20,6 +20,8 @@ const Header = () => {
     //  setFilterData(filter)
 
   }
+
+
   return (
     <>
       <section className="bg bg-[#323436] py-8 flex flex-col gap-8">
